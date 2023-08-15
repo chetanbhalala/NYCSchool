@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC9847142A8BDEDC00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847132A8BDEDC00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolApp.swift */; };
+		DC9847162A8BDEDC00BD4C10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847152A8BDEDC00BD4C10 /* ContentView.swift */; };
+		DC9847182A8BDEDF00BD4C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9847172A8BDEDF00BD4C10 /* Assets.xcassets */; };
+		DC98471B2A8BDEDF00BD4C10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC98471A2A8BDEDF00BD4C10 /* Preview Assets.xcassets */; };
+		DC9847252A8BDEDF00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847242A8BDEDF00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolTests.swift */; };
+		DC98472F2A8BDEDF00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98472E2A8BDEDF00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolUITests.swift */; };
+		DC9847312A8BDEDF00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847302A8BDEDF00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolUITestsLaunchTests.swift */; };
+		DC98473F2A8BDF2400BD4C10 /* SchoolData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98473E2A8BDF2400BD4C10 /* SchoolData.swift */; };
+		DC98475A2A8BE51800BD4C10 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847592A8BE51800BD4C10 /* LoadingView.swift */; };
+		DC98475B2A8BE51800BD4C10 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847592A8BE51800BD4C10 /* LoadingView.swift */; };
+		DC98475C2A8BE51800BD4C10 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847592A8BE51800BD4C10 /* LoadingView.swift */; };
+		DC9847842A8BE53100BD4C10 /* DashboardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847642A8BE53100BD4C10 /* DashboardDetailView.swift */; };
+		DC9847852A8BE53100BD4C10 /* DashboardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847642A8BE53100BD4C10 /* DashboardDetailView.swift */; };
+		DC9847862A8BE53100BD4C10 /* DashboardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847642A8BE53100BD4C10 /* DashboardDetailView.swift */; };
+		DC9847872A8BE53100BD4C10 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847662A8BE53100BD4C10 /* DashboardViewModel.swift */; };
+		DC9847882A8BE53100BD4C10 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847662A8BE53100BD4C10 /* DashboardViewModel.swift */; };
+		DC9847892A8BE53100BD4C10 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847662A8BE53100BD4C10 /* DashboardViewModel.swift */; };
+		DC98479C2A8BE53100BD4C10 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847752A8BE53100BD4C10 /* NetworkManager.swift */; };
+		DC98479D2A8BE53100BD4C10 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847752A8BE53100BD4C10 /* NetworkManager.swift */; };
+		DC98479E2A8BE53100BD4C10 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847752A8BE53100BD4C10 /* NetworkManager.swift */; };
+		DC9847A32A8C057300BD4C10 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847A22A8C057300BD4C10 /* Constants.swift */; };
+		DC9847A42A8C057300BD4C10 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847A22A8C057300BD4C10 /* Constants.swift */; };
+		DC9847A52A8C057300BD4C10 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847A22A8C057300BD4C10 /* Constants.swift */; };
+		DC9847A72A8C114400BD4C10 /* SchoolSATData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847A62A8C114400BD4C10 /* SchoolSATData.swift */; };
+		DC9847A82A8C114400BD4C10 /* SchoolSATData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847A62A8C114400BD4C10 /* SchoolSATData.swift */; };
+		DC9847A92A8C114400BD4C10 /* SchoolSATData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9847A62A8C114400BD4C10 /* SchoolSATData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC9847212A8BDEDF00BD4C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC9847082A8BDEDC00BD4C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC98470F2A8BDEDC00BD4C10;
+			remoteInfo = "20230814-ChetanBhalara-NYCSchool";
+		};
+		DC98472B2A8BDEDF00BD4C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC9847082A8BDEDC00BD4C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC98470F2A8BDEDC00BD4C10;
+			remoteInfo = "20230814-ChetanBhalara-NYCSchool";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC9847102A8BDEDC00BD4C10 /* 20230814-ChetanBhalara-NYCSchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20230814-ChetanBhalara-NYCSchool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9847132A8BDEDC00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230814_ChetanBhalara_NYCSchoolApp.swift; sourceTree = "<group>"; };
+		DC9847152A8BDEDC00BD4C10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC9847172A8BDEDF00BD4C10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC98471A2A8BDEDF00BD4C10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC9847202A8BDEDF00BD4C10 /* 20230814-ChetanBhalara-NYCSchoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20230814-ChetanBhalara-NYCSchoolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9847242A8BDEDF00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230814_ChetanBhalara_NYCSchoolTests.swift; sourceTree = "<group>"; };
+		DC98472A2A8BDEDF00BD4C10 /* 20230814-ChetanBhalara-NYCSchoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20230814-ChetanBhalara-NYCSchoolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC98472E2A8BDEDF00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230814_ChetanBhalara_NYCSchoolUITests.swift; sourceTree = "<group>"; };
+		DC9847302A8BDEDF00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230814_ChetanBhalara_NYCSchoolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC98473E2A8BDF2400BD4C10 /* SchoolData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolData.swift; sourceTree = "<group>"; };
+		DC9847592A8BE51800BD4C10 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		DC9847642A8BE53100BD4C10 /* DashboardDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardDetailView.swift; sourceTree = "<group>"; };
+		DC9847662A8BE53100BD4C10 /* DashboardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		DC9847752A8BE53100BD4C10 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		DC9847A22A8C057300BD4C10 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DC9847A62A8C114400BD4C10 /* SchoolSATData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolSATData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC98470D2A8BDEDC00BD4C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC98471D2A8BDEDF00BD4C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9847272A8BDEDF00BD4C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC9847072A8BDEDC00BD4C10 = {
+			isa = PBXGroup;
+			children = (
+				DC9847122A8BDEDC00BD4C10 /* 20230814-ChetanBhalara-NYCSchool */,
+				DC9847232A8BDEDF00BD4C10 /* 20230814-ChetanBhalara-NYCSchoolTests */,
+				DC98472D2A8BDEDF00BD4C10 /* 20230814-ChetanBhalara-NYCSchoolUITests */,
+				DC9847112A8BDEDC00BD4C10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC9847112A8BDEDC00BD4C10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC9847102A8BDEDC00BD4C10 /* 20230814-ChetanBhalara-NYCSchool.app */,
+				DC9847202A8BDEDF00BD4C10 /* 20230814-ChetanBhalara-NYCSchoolTests.xctest */,
+				DC98472A2A8BDEDF00BD4C10 /* 20230814-ChetanBhalara-NYCSchoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC9847122A8BDEDC00BD4C10 /* 20230814-ChetanBhalara-NYCSchool */ = {
+			isa = PBXGroup;
+			children = (
+				DC98475D2A8BE53000BD4C10 /* DashBoardView */,
+				DC9847702A8BE53100BD4C10 /* Utility */,
+				DC9847582A8BE51800BD4C10 /* CommonView */,
+				DC98473D2A8BDF0900BD4C10 /* DataModels */,
+				DC9847132A8BDEDC00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolApp.swift */,
+				DC9847152A8BDEDC00BD4C10 /* ContentView.swift */,
+				DC9847172A8BDEDF00BD4C10 /* Assets.xcassets */,
+				DC9847192A8BDEDF00BD4C10 /* Preview Content */,
+			);
+			path = "20230814-ChetanBhalara-NYCSchool";
+			sourceTree = "<group>";
+		};
+		DC9847192A8BDEDF00BD4C10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC98471A2A8BDEDF00BD4C10 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC9847232A8BDEDF00BD4C10 /* 20230814-ChetanBhalara-NYCSchoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC9847242A8BDEDF00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolTests.swift */,
+			);
+			path = "20230814-ChetanBhalara-NYCSchoolTests";
+			sourceTree = "<group>";
+		};
+		DC98472D2A8BDEDF00BD4C10 /* 20230814-ChetanBhalara-NYCSchoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC98472E2A8BDEDF00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolUITests.swift */,
+				DC9847302A8BDEDF00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolUITestsLaunchTests.swift */,
+			);
+			path = "20230814-ChetanBhalara-NYCSchoolUITests";
+			sourceTree = "<group>";
+		};
+		DC98473D2A8BDF0900BD4C10 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				DC98473E2A8BDF2400BD4C10 /* SchoolData.swift */,
+				DC9847A62A8C114400BD4C10 /* SchoolSATData.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		DC9847582A8BE51800BD4C10 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				DC9847592A8BE51800BD4C10 /* LoadingView.swift */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		DC98475D2A8BE53000BD4C10 /* DashBoardView */ = {
+			isa = PBXGroup;
+			children = (
+				DC9847612A8BE53000BD4C10 /* View */,
+				DC9847652A8BE53100BD4C10 /* View Model */,
+			);
+			path = DashBoardView;
+			sourceTree = "<group>";
+		};
+		DC9847612A8BE53000BD4C10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC9847642A8BE53100BD4C10 /* DashboardDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC9847652A8BE53100BD4C10 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC9847662A8BE53100BD4C10 /* DashboardViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		DC9847702A8BE53100BD4C10 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				DC9847732A8BE53100BD4C10 /* Service */,
+				DC9847A22A8C057300BD4C10 /* Constants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		DC9847732A8BE53100BD4C10 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DC9847742A8BE53100BD4C10 /* API */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DC9847742A8BE53100BD4C10 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DC9847752A8BE53100BD4C10 /* NetworkManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC98470F2A8BDEDC00BD4C10 /* 20230814-ChetanBhalara-NYCSchool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9847342A8BDEDF00BD4C10 /* Build configuration list for PBXNativeTarget "20230814-ChetanBhalara-NYCSchool" */;
+			buildPhases = (
+				DC98470C2A8BDEDC00BD4C10 /* Sources */,
+				DC98470D2A8BDEDC00BD4C10 /* Frameworks */,
+				DC98470E2A8BDEDC00BD4C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20230814-ChetanBhalara-NYCSchool";
+			productName = "20230814-ChetanBhalara-NYCSchool";
+			productReference = DC9847102A8BDEDC00BD4C10 /* 20230814-ChetanBhalara-NYCSchool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC98471F2A8BDEDF00BD4C10 /* 20230814-ChetanBhalara-NYCSchoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9847372A8BDEDF00BD4C10 /* Build configuration list for PBXNativeTarget "20230814-ChetanBhalara-NYCSchoolTests" */;
+			buildPhases = (
+				DC98471C2A8BDEDF00BD4C10 /* Sources */,
+				DC98471D2A8BDEDF00BD4C10 /* Frameworks */,
+				DC98471E2A8BDEDF00BD4C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC9847222A8BDEDF00BD4C10 /* PBXTargetDependency */,
+			);
+			name = "20230814-ChetanBhalara-NYCSchoolTests";
+			productName = "20230814-ChetanBhalara-NYCSchoolTests";
+			productReference = DC9847202A8BDEDF00BD4C10 /* 20230814-ChetanBhalara-NYCSchoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC9847292A8BDEDF00BD4C10 /* 20230814-ChetanBhalara-NYCSchoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC98473A2A8BDEDF00BD4C10 /* Build configuration list for PBXNativeTarget "20230814-ChetanBhalara-NYCSchoolUITests" */;
+			buildPhases = (
+				DC9847262A8BDEDF00BD4C10 /* Sources */,
+				DC9847272A8BDEDF00BD4C10 /* Frameworks */,
+				DC9847282A8BDEDF00BD4C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC98472C2A8BDEDF00BD4C10 /* PBXTargetDependency */,
+			);
+			name = "20230814-ChetanBhalara-NYCSchoolUITests";
+			productName = "20230814-ChetanBhalara-NYCSchoolUITests";
+			productReference = DC98472A2A8BDEDF00BD4C10 /* 20230814-ChetanBhalara-NYCSchoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC9847082A8BDEDC00BD4C10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DC98470F2A8BDEDC00BD4C10 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					DC98471F2A8BDEDF00BD4C10 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DC98470F2A8BDEDC00BD4C10;
+					};
+					DC9847292A8BDEDF00BD4C10 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DC98470F2A8BDEDC00BD4C10;
+					};
+				};
+			};
+			buildConfigurationList = DC98470B2A8BDEDC00BD4C10 /* Build configuration list for PBXProject "20230814-ChetanBhalara-NYCSchool" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC9847072A8BDEDC00BD4C10;
+			productRefGroup = DC9847112A8BDEDC00BD4C10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC98470F2A8BDEDC00BD4C10 /* 20230814-ChetanBhalara-NYCSchool */,
+				DC98471F2A8BDEDF00BD4C10 /* 20230814-ChetanBhalara-NYCSchoolTests */,
+				DC9847292A8BDEDF00BD4C10 /* 20230814-ChetanBhalara-NYCSchoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC98470E2A8BDEDC00BD4C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC98471B2A8BDEDF00BD4C10 /* Preview Assets.xcassets in Resources */,
+				DC9847182A8BDEDF00BD4C10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC98471E2A8BDEDF00BD4C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9847282A8BDEDF00BD4C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC98470C2A8BDEDC00BD4C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9847872A8BE53100BD4C10 /* DashboardViewModel.swift in Sources */,
+				DC98473F2A8BDF2400BD4C10 /* SchoolData.swift in Sources */,
+				DC98475A2A8BE51800BD4C10 /* LoadingView.swift in Sources */,
+				DC98479C2A8BE53100BD4C10 /* NetworkManager.swift in Sources */,
+				DC9847842A8BE53100BD4C10 /* DashboardDetailView.swift in Sources */,
+				DC9847162A8BDEDC00BD4C10 /* ContentView.swift in Sources */,
+				DC9847A72A8C114400BD4C10 /* SchoolSATData.swift in Sources */,
+				DC9847142A8BDEDC00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolApp.swift in Sources */,
+				DC9847A32A8C057300BD4C10 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC98471C2A8BDEDF00BD4C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9847252A8BDEDF00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolTests.swift in Sources */,
+				DC9847A82A8C114400BD4C10 /* SchoolSATData.swift in Sources */,
+				DC9847852A8BE53100BD4C10 /* DashboardDetailView.swift in Sources */,
+				DC98475B2A8BE51800BD4C10 /* LoadingView.swift in Sources */,
+				DC98479D2A8BE53100BD4C10 /* NetworkManager.swift in Sources */,
+				DC9847882A8BE53100BD4C10 /* DashboardViewModel.swift in Sources */,
+				DC9847A42A8C057300BD4C10 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9847262A8BDEDF00BD4C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9847A92A8C114400BD4C10 /* SchoolSATData.swift in Sources */,
+				DC98472F2A8BDEDF00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolUITests.swift in Sources */,
+				DC9847862A8BE53100BD4C10 /* DashboardDetailView.swift in Sources */,
+				DC98479E2A8BE53100BD4C10 /* NetworkManager.swift in Sources */,
+				DC9847892A8BE53100BD4C10 /* DashboardViewModel.swift in Sources */,
+				DC9847A52A8C057300BD4C10 /* Constants.swift in Sources */,
+				DC9847312A8BDEDF00BD4C10 /* _0230814_ChetanBhalara_NYCSchoolUITestsLaunchTests.swift in Sources */,
+				DC98475C2A8BE51800BD4C10 /* LoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC9847222A8BDEDF00BD4C10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC98470F2A8BDEDC00BD4C10 /* 20230814-ChetanBhalara-NYCSchool */;
+			targetProxy = DC9847212A8BDEDF00BD4C10 /* PBXContainerItemProxy */;
+		};
+		DC98472C2A8BDEDF00BD4C10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC98470F2A8BDEDC00BD4C10 /* 20230814-ChetanBhalara-NYCSchool */;
+			targetProxy = DC98472B2A8BDEDF00BD4C10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC9847322A8BDEDF00BD4C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC9847332A8BDEDF00BD4C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC9847352A8BDEDF00BD4C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"20230814-ChetanBhalara-NYCSchool/Preview Content\"";
+				DEVELOPMENT_TEAM = J52RGEVWVP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chetanbhalara.-0230814-ChetanBhalara-NYCSchool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC9847362A8BDEDF00BD4C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"20230814-ChetanBhalara-NYCSchool/Preview Content\"";
+				DEVELOPMENT_TEAM = J52RGEVWVP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chetanbhalara.-0230814-ChetanBhalara-NYCSchool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC9847382A8BDEDF00BD4C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J52RGEVWVP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chetanbhalara.-0230814-ChetanBhalara-NYCSchoolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20230814-ChetanBhalara-NYCSchool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/20230814-ChetanBhalara-NYCSchool";
+			};
+			name = Debug;
+		};
+		DC9847392A8BDEDF00BD4C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J52RGEVWVP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chetanbhalara.-0230814-ChetanBhalara-NYCSchoolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20230814-ChetanBhalara-NYCSchool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/20230814-ChetanBhalara-NYCSchool";
+			};
+			name = Release;
+		};
+		DC98473B2A8BDEDF00BD4C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J52RGEVWVP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chetanbhalara.-0230814-ChetanBhalara-NYCSchoolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "20230814-ChetanBhalara-NYCSchool";
+			};
+			name = Debug;
+		};
+		DC98473C2A8BDEDF00BD4C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J52RGEVWVP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chetanbhalara.-0230814-ChetanBhalara-NYCSchoolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "20230814-ChetanBhalara-NYCSchool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC98470B2A8BDEDC00BD4C10 /* Build configuration list for PBXProject "20230814-ChetanBhalara-NYCSchool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9847322A8BDEDF00BD4C10 /* Debug */,
+				DC9847332A8BDEDF00BD4C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9847342A8BDEDF00BD4C10 /* Build configuration list for PBXNativeTarget "20230814-ChetanBhalara-NYCSchool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9847352A8BDEDF00BD4C10 /* Debug */,
+				DC9847362A8BDEDF00BD4C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9847372A8BDEDF00BD4C10 /* Build configuration list for PBXNativeTarget "20230814-ChetanBhalara-NYCSchoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9847382A8BDEDF00BD4C10 /* Debug */,
+				DC9847392A8BDEDF00BD4C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC98473A2A8BDEDF00BD4C10 /* Build configuration list for PBXNativeTarget "20230814-ChetanBhalara-NYCSchoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC98473B2A8BDEDF00BD4C10 /* Debug */,
+				DC98473C2A8BDEDF00BD4C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC9847082A8BDEDC00BD4C10 /* Project object */;
+}
